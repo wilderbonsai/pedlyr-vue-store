@@ -68,7 +68,7 @@ export default {
         meta: [
           {
             'property': 'og:title',
-            'content':  this.productName,
+            'content': this.productName,
             'vmid': 'og:title'
           }
         ]
