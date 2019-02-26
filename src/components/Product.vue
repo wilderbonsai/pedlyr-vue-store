@@ -64,7 +64,14 @@ export default {
   metaInfo () {
     if (this.productName) {
       return {
-        title: this.productName
+        title: this.productName,
+        meta: [
+          {
+            'property': 'og:title',
+            'content':  this.productName,
+            'vmid': 'og:title'
+          }
+        ]
       }
     } else return {}
   },
